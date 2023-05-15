@@ -8,7 +8,7 @@ function App() {
       <div className='react-shop'>
        <header className='head-line'>
         <nav className='navigation-bar'>
-          <div className="nav-contaier">
+          <div className="nav-container">
             <div className="home button">React Shop</div>
             <div className="navi-flex">
               <div className="fassion button">패션</div>

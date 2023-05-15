@@ -16,21 +16,28 @@
   width: 1360px;
   height: 48px;
   margin: 0 auto;
+  color: #fff;
+  display: flex;
+  align-items: center;
 }
 .home {
   font-size: 18px;
   font-weight: 700;
+  width: 8%;
+  line-height: 0px;
 }
 .navi-flex {
-  width: 68%;
+  width: 66%;
   display: flex;
   margin-left: 8px;
+  align-items: center;
 }
 .fassion,
 .accs,
 .digital {
   font-size: 14px;
   padding: 0px 12px;
+  width: initial;
 }
 .nav-flex {
   width: 25%;
@@ -39,12 +46,25 @@
   justify-content: space-between;
   padding: 0px 8px;
 }
+.light,
+.shopping {
+  width: initial;
+  display: flex;
+}
 .search {
   width: 222px;
 }
 .counting {
   background-color: #ef4444;
   border-radius: 80%;
+  width: 23px;
+  height: 20px;
+  bottom: 0px;
+  right: 0px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .carousel {
   height: 700px;
@@ -76,6 +96,10 @@ h2 {
 .bottom-line {
   padding: 40px;
   height: 288px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 .class-name {
@@ -91,7 +115,6 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
 }
 .cards {
   display: flex;
@@ -103,4 +126,18 @@ h2 {
 .snss {
   width: 268px;
   margin: 0 auto;
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6,
+.facebook,
+.instagram,
+.github {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
