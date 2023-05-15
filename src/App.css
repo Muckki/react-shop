@@ -66,12 +66,22 @@
   align-items: center;
   justify-content: center;
 }
+
+/* carousels css */
 .carousel {
   height: 700px;
 }
 
 .inner {
   height: inherit;
+}
+.fassion-line,
+.accs-line,
+.digital-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 h2 {
@@ -108,10 +118,7 @@ h2 {
 
 .class-name,
 .snss,
-.copyrights,
-.fassion-line,
-.accs-line,
-.digital-line {
+.copyrights {
   display: flex;
   align-items: center;
   justify-content: center;
