@@ -7,13 +7,23 @@ function App() {
     <>
       <div className='react-shop'>
        <header className='head-line'>
-        <div className="home button"></div>
-        <div className="fassion button"></div>
-        <div className="accs button"></div>
-        <div className="digital button"></div>
-        <div className="light button"></div>
-        <div className="search input"></div>
-        <div className="shopping button"></div>
+        <nav className='navigation-bar'>
+          <div className="nav-contaier">
+            <div className="home button">React Shop</div>
+            <div className="navi-flex">
+              <div className="fassion button">패션</div>
+              <div className="accs button">액세서리</div>
+              <div className="digital button">디지털</div>
+            </div>
+            <div className="nav-flex">
+              <div className="light button">해</div>
+              <div className="search input">검색</div>
+              <div className="shopping button">장바구니
+                <div className="counting">0</div>
+              </div>
+            </div>
+          </div>
+        </nav>
        </header>
        <div className="carousel">
         <div className="jean inner"></div>
