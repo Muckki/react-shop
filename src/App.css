@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.head-line {
+  height: 64px;
+  background-color: rgb(24, 24, 24);
+}
+
+.carousel {
+  height: 700px;
+}
+
+h2 {
+  height: 40px;
+  margin-bottom: 32px;
+}
+
+.container {
+  height: 478px;
+  width: 1344px;
+  margin: 0 auto;
+}
+
+.accss,
+.digital {
+  margin-top: 48px;
+}

@@ -15,28 +15,37 @@ function App() {
         <div className="search input"></div>
         <div className="shopping button"></div>
        </header>
-       <div className="carausel">
+       <div className="carousel">
         <div className="jean inner"></div>
         <div className="digit inner"></div>
         <div className="foods inner"></div>
        </div>
        <div className="fassion-line">
-        <div className="fassion-item1"></div>
-        <div className="fassion-item2"></div>
-        <div className="fassion-item3"></div>
-        <div className="fassion-item4"></div>
+        <h2>패션</h2>
+        <div className="fassion container">
+          <div className="fassion-item1"></div>
+          <div className="fassion-item2"></div>
+          <div className="fassion-item3"></div>
+          <div className="fassion-item4"></div>
+        </div>
        </div>
        <div className="accs-line">
-        <div className="accs-item1"></div>
-        <div className="accs-item2"></div>
-        <div className="accs-item3"></div>
-        <div className="accs-item4"></div>
+        <h2>액세서리</h2>
+        <div className="accss container">
+          <div className="accs-item1"></div>
+          <div className="accs-item2"></div>
+          <div className="accs-item3"></div>
+          <div className="accs-item4"></div>
+        </div>
        </div>
        <div className="digital-line">
-        <div className="digital-item1"></div>
-        <div className="digital-item2"></div>
-        <div className="digital-item3"></div>
-        <div className="digital-item4"></div>
+        <h2>디지털</h2>
+        <div className="digitals container">
+          <div className="digital-item1"></div>
+          <div className="digital-item2"></div>
+          <div className="digital-item3"></div>
+          <div className="digital-item4"></div>
+        </div>
        </div>
        <footer className='bottom-line'>
         <div className="class-name"></div>
