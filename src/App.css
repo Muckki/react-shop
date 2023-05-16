@@ -32,6 +32,11 @@
   margin-left: 8px;
   align-items: center;
 }
+
+a {
+  color: #fff;
+}
+
 .fassion,
 .accs,
 .digital {
@@ -44,6 +49,7 @@
   border-radius: 6px;
   background-color: #a6adba33;
   cursor: pointer;
+  transition: all 0.5s;
 }
 .nav-flex {
   width: 25%;
