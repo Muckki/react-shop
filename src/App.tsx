@@ -9,7 +9,7 @@ function App() {
        <header className='head-line'>
         <nav className='navigation-bar'>
           <div className="nav-container">
-            <div className="home button">React Shop</div>
+            <a href='/' className="home button">React Shop</a>
             <div className="navi-flex">
               <div className="fassion button">패션</div>
               <div className="accs button">액세서리</div>
