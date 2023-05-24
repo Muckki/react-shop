@@ -18,9 +18,14 @@ function HeadLine() {
               <div className="digital button">디지털</div>
             </div>
             <div className="nav-flex">
-              <div className="light-switch">해</div>
-              <div className="search input">검색</div>
-              <div className="shopping button">장바구니
+              <div className="light-switch">
+                bu
+              </div>
+              <div className="search input">
+                <input type="search" id='search' />검색
+              </div>
+              <div className="shopping button">
+                <img src="/assets/shopping-bag-ui-svgrepo-com.svg" alt="장바구니" />
                 <div className="counting">0</div>
               </div>
             </div>
