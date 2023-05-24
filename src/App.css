@@ -34,6 +34,7 @@
 }
 
 a {
+  text-decoration: none;
   color: #fff;
 }
 
@@ -49,8 +50,9 @@ a {
   border-radius: 6px;
   background-color: #a6adba33;
   cursor: pointer;
-  transition: all 0.5s;
+  transition: all 0.2s;
 }
+
 .nav-flex {
   width: 25%;
   display: flex;
